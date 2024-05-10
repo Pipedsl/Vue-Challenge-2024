@@ -236,6 +236,7 @@ export default {
     const interest = parseFloat(interestRate.value) / 12 / 100;
     const payments = term.value * 12;
 
+    
     if (payments > 0 && !isNaN(interest)) {
         monthlyPayment.value = (initialAmount * interest) / (1 - Math.pow(1 + interest, - payments));
         router.push({ name: 'resultado', params: { monthlyPayment: monthlyPayment.value.toFixed(2)}});
