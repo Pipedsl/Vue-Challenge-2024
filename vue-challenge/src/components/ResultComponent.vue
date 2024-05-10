@@ -8,7 +8,7 @@ import { RouterLink } from 'vue-router';
         alt="Logo"
         class="h-80 mx-auto"
         />
-        <h1 class="text-4xl text-orange-500 text-center mb-4 font-bold">¡Bienvenida/o a tú simulador de crédito hipotecario!</h1>
+        <h1 class="text-4xl text-orange-500 text-center mb-4 font-bold">¡Bienvenida/o a tu simulador de crédito hipotecario!</h1>
         <p class="text-center  text-orange-500 font-bold">Simula tu crédito para acceder a la casa que siempre soñaste</p>
     </div>
     <div class="container-inicio-sesion bg-orange-500 w-screen h-screen content-center">
