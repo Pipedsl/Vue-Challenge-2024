@@ -87,11 +87,9 @@ export default {
 </script>
 
 <style>
-
 .desktop-view {
     display: none; 
 }
-
 .mobile-view {
     display: block; 
 }
