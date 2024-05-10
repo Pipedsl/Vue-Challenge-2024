@@ -95,7 +95,6 @@ export default {
 .mobile-view {
     display: block; 
 }
-
 /* Media query para cambiar entre la vista de escritorio y móvil */
 @media (min-width: 769px) {
 .desktop-view {
