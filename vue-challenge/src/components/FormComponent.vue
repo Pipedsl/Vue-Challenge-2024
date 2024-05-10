@@ -116,7 +116,7 @@
         <div class="mt-8 max-w-md mx-auto my-auto">
         <form class="space-y-4" @submit.prevent="calculateMortgage">
         <h2 class="text-4xl font-bold text-center pt-20 text-white">¡Bienvenida/o a tú simulador de crédito hipotecario!</h2>
-        <p class="text-center pt-0 mt-0 text-white">Simula tu credito para acceder a la casa que siempre soñaste</p>
+        <p class="text-center pt-0 mt-0 text-white">Simula tu crédito para acceder a la casa que siempre soñaste</p>
         <div>
             <input
             id="propertyValue"

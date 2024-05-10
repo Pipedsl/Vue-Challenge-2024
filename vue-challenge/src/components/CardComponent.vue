@@ -9,13 +9,13 @@ import { RouterLink } from 'vue-router';
             class="h-80 mx-auto"
             />
             <h1 class="text-4xl text-orange-500 text-center mb-4 font-bold">Créditos Hipotecarios</h1>
-            <p class="text-center  text-orange-500 font-bold">Simula tu credito para acceder a la casa que siempre soñaste</p>
+            <p class="text-center  text-orange-500 font-bold">Simula tu crédito para acceder a la casa que siempre soñaste</p>
             <div class="flex mt-4 justify-center">
                 <router-link class="bg-black content-center text-white font-bold py-2 px-4 rounded-full hover:bg-orange-400 hover:text-black transition duration-300" to="/">Volver</router-link>
             </div>
         </div>
         <div class="w-screen h-screen bg-orange-500">
-        <div v-if="banksData.length === 0" class="text-center">Cargando...</div>
+        <div v-if="banksData.length === 0" class="text-center">Cargando ...</div>
         <div v-else class="overflow-y-auto max-h-screen">
             <div v-for="bankData in banksData" :key="bankData.banco.nombre">
             <div class="bg-orange-400 text-white rounded-md shadow-md p-4 m-2">
